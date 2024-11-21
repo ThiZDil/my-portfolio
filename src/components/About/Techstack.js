@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiDotnet,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,12 +17,16 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiDotnet,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>

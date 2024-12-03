@@ -4,11 +4,13 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import output from "../../Assets/Projects/output.png";
+import goglobe from "../../Assets/Projects/goglobe.png";
+import sentimantAnalysis from "../../Assets/Projects/sentimantAnalysis.jpg";
+import Bus_Reservation from "../../Assets/Projects/Bus_Reservation.png"
+import bubble from "../../Assets/Projects/bubble.png"
+import edufun from "../../Assets/Projects/edufun.jpg"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -23,68 +25,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={output}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Resume Screening"
+              description="This system helps HR managers to upload several CV’s and their Job description. The system will give a matching score. Developed using Python. Used BERT framework."
+              ghLink="https://github.com/ThiZDil/Research_Model"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={goglobe}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="GoGlobe Travel Guide"
+              description="Travel planning application that will provide the easy way to plan a trip to travelers. Technologies- PHP, mySQL."
+              ghLink="https://github.com/ThiZDil/GoGlobe-Travel/tree/main/GoGlobeTravele"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={sentimantAnalysis}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Twtiter Sentiment Analysis"
+              description="A system that can accurately categorize social media posts into positive, negative, or neutral sentiments. A working prototype of a sentiment analysis system that can be used by businesses, researchers, or individuals."
+              ghLink="https://github.com/ThiZDil/Sentiment-Analysis"
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Bus_Reservation}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Bus Reservation System"
+              description="Online Bus Ticket Reservation System is a Web based application that works within a centralized network. This project presents a review on the software program “Online Bus Ticket Reservation System” as should be used in a bus transportation system, a facility which is used to reserve seats, cancellation of reservation and different types of route enquiries used on securing quick reservations."
+              ghLink="https://github.com/ThiZDil/BusReservation-Project"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bubble}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Mini Game Project"
+              description="This is a single player game which has 2 levels. Bubbles keep falling randomly, and you need to shoot the bubbles to score. For each bubble attack, you get 10 marks. After you score 100 marks, the 1st level is completed. Then you can move to level 2 as your preference. In the 2nd level, there is no time limit, so you can score marks until you lose all your lives. At the beginning of level 1, you are given 3 lives (represented as hearts   ) and in level 2, 4 lives. For each life, you get 5 energy levels. When bubbles fall on to the shooter, you lose energy levels one by one. When all three lives are over, you lose the game."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={edufun}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Education + Entertainment applicication for Kids"
+              description="Mobile application that will give education + entertainment experience for kids, Technologies- java,firebase."
+              ghLink="https://github.com/ThiZDil/edufun"
+               
             />
           </Col>
         </Row>

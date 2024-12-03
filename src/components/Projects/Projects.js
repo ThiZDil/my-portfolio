@@ -73,7 +73,7 @@ function Projects() {
               isBlog={false}
               title="Mini Game Project"
               description="This is a single player game which has 2 levels. Bubbles keep falling randomly, and you need to shoot the bubbles to score. For each bubble attack, you get 10 marks. After you score 100 marks, the 1st level is completed. Then you can move to level 2 as your preference. In the 2nd level, there is no time limit, so you can score marks until you lose all your lives. At the beginning of level 1, you are given 3 lives (represented as hearts   ) and in level 2, 4 lives. For each life, you get 5 energy levels. When bubbles fall on to the shooter, you lose energy levels one by one. When all three lives are over, you lose the game."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/ThiZDil/miniGame"
               
             />
           </Col>

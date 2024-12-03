@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.6971025a.css",
+    "main.js": "/my-portfolio/static/js/main.41b3ff84.js",
+    "static/js/453.ace21015.chunk.js": "/my-portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/leaf.png": "/my-portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/Bus_Reservation.png": "/my-portfolio/static/media/Bus_Reservation.0450dcfd321e96a8553f.png",
+    "static/media/emotion.png": "/my-portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/my-portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/goglobe.png": "/my-portfolio/static/media/goglobe.c40ddf7fcdfd3c4c98ef.png",
+    "static/media/myimg1.jpg": "/my-portfolio/static/media/myimg1.4026f05cecdc4fe724a2.jpg",
+    "static/media/Thisara_Dilshan-General.pdf": "/my-portfolio/static/media/Thisara_Dilshan-General.67b76e64b9cd738b47b1.pdf",
+    "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/output.png": "/my-portfolio/static/media/output.cbf6dc577c5861ba0435.png",
+    "static/media/sentimantAnalysis.jpg": "/my-portfolio/static/media/sentimantAnalysis.b43fe1727cecaf180dc0.jpg",
+    "static/media/bubble.png": "/my-portfolio/static/media/bubble.2f1526c0aa6638ba8a8d.png",
+    "static/media/home-main2.webp": "/my-portfolio/static/media/home-main2.97ef23743cf2c5ef48a7.webp",
+    "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/my-portfolio/static/media/avatar.7f776cf82d42cd692e4a48585386d8b1.svg",
+    "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.6971025a.css.map": "/my-portfolio/static/css/main.6971025a.css.map",
+    "main.41b3ff84.js.map": "/my-portfolio/static/js/main.41b3ff84.js.map",
+    "453.ace21015.chunk.js.map": "/my-portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6971025a.css",
+    "static/js/main.41b3ff84.js"
+  ]
+}
